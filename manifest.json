@@ -1,0 +1,20 @@
+{
+  "name": "Webscraper cookietest",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Plugin to add items to your tracklist",
+  "host_permissions": [
+  "*://*/*"
+],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "cookies",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
